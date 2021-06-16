@@ -1,0 +1,21 @@
+---
+title: "Five principles to grow up your R community <br><br>"
+author: "Joselyn Chávez, Erick Cuevas-Fernández, Leonardo Collado-Torres, Alejandro Reyes"
+date: "5 July 2021"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: [useR, useR-fonts]
+---
+
+
+---
+# Let's practice!
+
+Go to our collaborative document and write some ideas about how this principles apply to your community 
+
+Viewer mode:
+<https://hackmd.io/@josschavezf/incubator_useR2021/>
+
+Edit mode: 
+<https://hackmd.io/@josschavezf/incubator_useR2021/edit>
