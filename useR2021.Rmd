@@ -1,15 +1,16 @@
 ---
-title: "Five principles to grow up your R community <br><br>"
-author: "Joselyn Chávez, Erick Cuevas-Fernández, Leonardo Collado-Torres, Alejandro Reyes"
-date: "5th July 2021"
+title: "Five principles to grow up your R community"
+author: "Joselyn Chávez, Erick Cuevas-Fernández, Leonardo Collado-Torres, Alejandro Reyes <br><br>"
+date: "5th July 2021 <br><br>"
 output:
   xaringan::moon_reader:
-    lib_dir: libs
-    css: [useR, useR-fonts]
+    css: ["css/useR.css", "csss/useR-fonts.css"]
+    nature:
+      ratio: '16:9'
 ---
 class: center
 
-```{r, fig.alt="The CDSB logo showing the superposed C & D letters in blue and red, with the spanish name Comunidad de Desarrolladores de Software en Bioinformática", echo=FALSE, out.width='100%'}
+```{r, fig.alt="The CDSB logo showing the superposed C & D letters in blue and red, with the spanish name Comunidad de Desarrolladores de Software en Bioinformática", echo=FALSE, out.width='80%'}
 knitr::include_graphics("img/logo.png")
 ```
 
@@ -22,6 +23,7 @@ knitr::include_graphics("img/logo.png")
 **Facebook:** [@CDSBMexico](https://www.facebook.com/CDSBMexico)
 
 ** Web page:** <https://comunidadbioinfo.github.io> 
+
 
 ---
 class: chapter-slide
@@ -36,16 +38,15 @@ class: chapter-slide
 Everything started with a question from professor Sandrine Dudoit during her visit at the Center of Genomic Sciences, UNAM.
 </p>
 
-<br>
 ### Who knows **R**?
-```{r, fig.alt="The R logo",echo=FALSE,out.width='40%', fig.align='right'}
+```{r, fig.alt="The R logo",echo=FALSE,out.width='30%', fig.align='right'}
 knitr::include_graphics("img/Rlogo.svg")
 ```
 ]
 
 .pull-right[
 .center[
-```{r, fig.alt="The front photograph of professor Sandrine Dudoit",echo=FALSE,out.width='35%', fig.align='center'}
+```{r, fig.alt="The front photograph of professor Sandrine Dudoit",echo=FALSE,out.width='30%', fig.align='center'}
 knitr::include_graphics("img/sandrine.jpeg")
 ```
 [Sandrine Dudoit](https://www.stat.berkeley.edu/users/sandrine/)  
@@ -56,18 +57,18 @@ knitr::include_graphics("img/lcg.png")
 ```
 ]
 ]
+
 ---
 # Local members take the initiative to learn more
 
 .pull-left[
 .center[
 **January 2008**
-
-```{r, fig.alt="A map with an arrow from USA to Mexico showing the visit of James Bullard to our University.",echo=FALSE,out.width='80%', fig.align='center'}
+```{r, fig.alt="A map with an arrow from USA to Mexico showing the visit of James Bullard to our University.",echo=FALSE,out.width='70%', fig.align='center'}
 knitr::include_graphics("img/map1.png")
 ```
 
-```{r, fig.alt="The front photograph of professor James Bullard",echo=FALSE,out.width='32%', fig.align='center'}
+```{r, fig.alt="The front photograph of professor James Bullard",echo=FALSE,out.width='25%', fig.align='center'}
 knitr::include_graphics("img/james.png")
 ```
 James Bullard
@@ -77,22 +78,21 @@ James Bullard
 .pull-right[
 .center[
 **Summer 2008**
-
-```{r, fig.alt="A map with an arrow from Mexico to USA showing the attendance of two CDSB members to their first R/Bioconductor conference.",echo=FALSE,out.width='80%', fig.align='center'}
+```{r, fig.alt="A map with an arrow from Mexico to USA showing the attendance of two CDSB members to their first R/Bioconductor conference.",echo=FALSE,out.width='70%', fig.align='center'}
 knitr::include_graphics("img/map2.png")
 ```
 
-```{r, fig.alt="The front photograph of professor James Bullard",echo=FALSE,out.width='65%', fig.align='center'}
+```{r, fig.alt="The front photograph of  Alejandra Medina and Leonardo Collado",echo=FALSE,out.width='50%', fig.align='center'}
 knitr::include_graphics("img/ale_leo.png")
 ```
-[Alejandra Medina-Rivera](https://twitter.com/AleMedinaRivera) and [Leonardo Collado-Torres](https://twitter.com/lcolladotor)
+[Alejandra Medina](https://twitter.com/AleMedinaRivera) and [Leonardo Collado](https://twitter.com/lcolladotor)
 ]
 ]
 
 ---
 # Local members teach others 
 
-<br><br><br>
+<br>
 Leonardo became a co-instructor at his undergraduate program.
 
 ```{r, fig.alt="The announcement of Leonardo's first workshop saying:  R/Bioconductor workshop Oct-Nov 2008. This workshop was meant as a short course and was part of the Bioinformatics and Statistics subject directed to the fifth semester students of the Program of Genomic Sciences.",echo=FALSE,out.width='90%', fig.align='center'}
@@ -102,7 +102,6 @@ knitr::include_graphics("img/workshop2008.png")
 ---
 # Repeat the teaching cycle
 
-<br>
 .left-column[<br>
 ```{r, fig.alt="An arrow that connects the last step of the teaching cicle with the first one.",echo=FALSE,out.width='80%', fig.align='center'}
 knitr::include_graphics("img/arrow.png")
@@ -110,16 +109,18 @@ knitr::include_graphics("img/arrow.png")
 ]
 
 .right-column[<br>
-- ** A external expert trains local community.**
+- ** An external expert trains local community.**
 <br><br><br>
 - ** Local members take the initiative to learn more. **
 <br><br><br>
 - ** Local members take the lead to train new community members. **
-<br><br><br><br>
+<br><br>
 ]
 
 --
+.right-column[
 ## Everything seemed to work but...
+]
 
 ---
 # We faced some issues
@@ -132,14 +133,14 @@ knitr::include_graphics("img/arrow.png")
 ---
 class: chapter-slide
 
-# Principle 2: Provide continous support
+# Principle 2: Provide continuous support
 
 ---
 # We work as a virtual academic department
 
 .pull-left[
 .center[
-```{r, fig.alt="The Slack logo.",echo=FALSE,out.width='50%', fig.align='center'}
+```{r, fig.alt="The Slack logo.",echo=FALSE,out.width='40%', fig.align='center'}
 knitr::include_graphics("img/slack_logo.png")
 ```
 Join us [here](https://join.slack.com/t/comunidadbioinfo/shared_invite/zt-8lsvpm84-Fne1W0hadk6cpjgJS17Tnw)
@@ -151,14 +152,18 @@ knitr::include_graphics("img/slack_announcement.png")
 ]
 
 .pull-right[
-- Diverse topic members.
-- Announcements about local and international events.
-- Advice and feedback for scholarship applications.
+- Members with diverse backgrounds.
+
+- Announcement of events.
+
+- Advice and feedback for applications.
+
 - Code/Programming advice.
-- Full-year feedback about CDSB workshop's content.
-- Promote ideas exchange and collaborations.
-- Highlight member's work and contributions.
-<br>
+
+- Promote collaborations.
+
+- Highlight member's work/contributions.
+
 
 ### 235 CDSB members!
 ]
@@ -172,8 +177,7 @@ knitr::include_graphics("img/slack_announcement.png")
 <p align="justify">
 Three members obtained a developer scholarship and presented their contributions at Bioconductor Conference 2019 (New York City, USA).
 </p>
-
-```{r, fig.alt="Ana Beatriz Villaseñor presenting her work at the Rockefeller University auditorium.",echo=FALSE,out.width='94%', fig.align='center'}
+```{r, fig.alt="Ana Beatriz Villaseñor presenting her work at the Rockefeller University auditorium.",echo=FALSE,out.width='80%', fig.align='center'}
 knitr::include_graphics("img/bioconductor2019.png")
 ```
 .pull-right[
@@ -181,8 +185,8 @@ knitr::include_graphics("img/bioconductor2019.png")
 ]
 ]
 
-.pull-right[<br><br>
-```{r, fig.alt="Leonardo, Alejandro and Pedro at the Rockefeller University garden practicing the speech of Joselyn's presentation.",echo=FALSE,out.width='100%'}
+.pull-right[<br>
+```{r, fig.alt="Leonardo, Alejandro and Pedro at the Rockefeller University garden practicing the speech of Joselyn's presentation.",echo=FALSE,out.width='90%'}
 knitr::include_graphics("img/bioconductor2019_joss.png")
 ```
 CDSB support during the conference, practicing @josschavezf1 speech with @lcolladotor, @areyes, @doctor_calvo.
@@ -195,10 +199,10 @@ CDSB support during the conference, practicing @josschavezf1 speech with @lcolla
 <p align="justify">
 One member obtained a diversity scholarship to attend RStudio Conference 2020 (San Francisco, USA).
 </p>
-```{r, fig.alt="Joselyn stands besides the congratulation's baloons for the diversity scholarship recipents of RStudioConf 2020.",echo=FALSE,out.width='100%'}
+```{r, fig.alt="Joselyn stands besides the congratulation's baloons for the diversity scholarship recipents of RStudioConf 2020.",echo=FALSE,out.width='80%', fig.align='center'}
 knitr::include_graphics("img/rstudio2020.png")
 ```
-<br><br>
+
 .pull-right[@josschavezf1]
 ]
 
@@ -206,29 +210,42 @@ knitr::include_graphics("img/rstudio2020.png")
 <p align="justify">
 One member obtained a diversity scholarship to attend useR! Conference 2020 (Virtual format).
 </p>
-```{r, fig.alt="Twitter from Ana Beatriz thanking useR! 2020 for her diversity scholarship.",echo=FALSE,out.width='95%', fig.align='center'}
+```{r, fig.alt="Twitter from Ana Beatriz thanking useR! 2020 for her diversity scholarship.",echo=FALSE,out.width='75%', fig.align='center'}
 knitr::include_graphics("img/useR2020.png")
 ```
-<br><br>
+
 .pull-right[@AnaBetty2304]
 ]
 
 ---
 ## Participation in conferences
 
-12 CDSB members attended Bioconductor Conference 2020 (Virtual format).
-<br><Br>
-3 of them presented their contributions (Poster).
+<br>
+.pull-left[
+* 12 CDSB members attended Bioconductor Conference 2020 (Virtual format).
 
-```{r, fig.alt="Faces of twelve CDSB members that attended Bioconductor conference in 2020.",echo=FALSE,out.width='70%', fig.align='center'}
+<br>
+
+* 3 of them presented their contributions (Poster).
+
+<br>
+
+* The CDSB presented a Birds of a feather session.
+]
+
+.pull-right[
+```{r, fig.alt="Faces of twelve CDSB members whom attended Bioconductor conference in 2020.",echo=FALSE,out.width='110%'}
 knitr::include_graphics("img/bioconductor2020.png")
 ```
+]
 
 ---
 ## Participation in conferences
+
+.center[Diverse conference talks introducing the CDSB community.]
+
 <br>
-Diverse conference talks introducing the CDSB community.
-<br><br><br>
+
 .pull-left[
 .center[**JSM 2020**]
 
@@ -248,11 +265,8 @@ knitr::include_graphics("img/conectar.png")
 ---
 ## Collaborative projects
 
-<br>
+.center[regutools is the first Bioconductor package fully written by CDSB members.]
 
-regutools is the first Bioconductor package fully written by CDSB members.
-
-<br>
 
 .pull-left[<br>
 ```{r, fig.alt="The Bioconductor page of regutools, showing the text 'regutools: an R package for data extraction from RegulonDB.' ",echo=FALSE,out.width='100%'}
@@ -276,9 +290,9 @@ class: chapter-slide
 
 Joselyn joined the team after the annual CDSB workshop in 2019.
 
-She was one of the instructors for 2020, teaching materials from the course she took during RStudioConf.
+She was one of the instructors for 2020, teaching materials from the course she took during RStudioConf 2020.
 
-```{r, fig.alt="ConectaR 2020 title-slide with the CDSB logo, the ConectaR logo and the full name Community of Developers of Software in Bioinformatics.",echo=FALSE,out.width='90%', fig.align='center'}
+```{r, fig.alt="ConectaR 2020 title-slide with the CDSB logo, the ConectaR logo and the full name Community of Developers of Software in Bioinformatics.",echo=FALSE,out.width='80%', fig.align='center'}
 knitr::include_graphics("img/instructors2020.png")
 ```
 
@@ -288,7 +302,7 @@ knitr::include_graphics("img/instructors2020.png")
 .pull-left[
 Erick joined the team after the annual CDSB workshop in 2020. He will be an instructor this year.
 
-```{r, fig.alt="The CDSB board team faces updated in 2020, now including Erick.",echo=FALSE,out.width='100%', fig.align='center'}
+```{r, fig.alt="The CDSB board team faces updated in 2020, now including Erick.",echo=FALSE,out.width='90%', fig.align='center'}
 knitr::include_graphics("img/board2020.png")
 ```
 ]
@@ -296,7 +310,7 @@ knitr::include_graphics("img/board2020.png")
 .pull-right[
 Erick and Joselyn lead our monthly short courses in collaboration with RMB.
 
-```{r, fig.alt="Poster of the first mini course organized and chaired by Erick and Joselyn with the title in Spanish: Introduction to R and RStudio.",echo=FALSE,out.width='90%', fig.align='left'}
+```{r, fig.alt="Poster of the first mini course organized and chaired by Erick and Joselyn with the title in Spanish: Introduction to R and RStudio.",echo=FALSE,out.width='70%', fig.align='center'}
 knitr::include_graphics("img/minicurso.png")
 ```
 ]
@@ -311,13 +325,13 @@ class: chapter-slide
 <br>
 .pull-left[
 [
-```{r, fig.alt="Logo of the Mexican Network of Bioinformatics, showing a blue and green double-DNA strand with the Spanish name in blue", echo=FALSE,out.width='90%', fig.align='center'}
+```{r, fig.alt="Logo of the Mexican Network of Bioinformatics, showing a blue and green double-DNA strand with the Spanish name in blue", echo=FALSE,out.width='80%', fig.align='center'}
 knitr::include_graphics("img/rmb.png")
 ```
 ](https://www.redmexicanadebioinformatica.org)
-<br><br><br><br><br>
+<br><br><br>
 [
-```{r, fig.alt="Logo of the Center of Genomic Sciences, showing a blue and black circle with the Spanish name in black.",echo=FALSE,out.width='80%', fig.align='center'}
+```{r, fig.alt="Logo of the Center of Genomic Sciences, showing a blue and black circle with the Spanish name in black.",echo=FALSE,out.width='70%', fig.align='center'}
 knitr::include_graphics("img/ccg.png")
 ```
 ](https://www.ccg.unam.mx)
@@ -325,19 +339,18 @@ knitr::include_graphics("img/ccg.png")
 
 .pull-right[
 [
-```{r, fig.alt="Logo of the National Node of Bioinformatics, showing a green circle with the Spanish name in green.",echo=FALSE,out.width='90%', fig.align='center'}
+```{r, fig.alt="Logo of the National Node of Bioinformatics, showing a green circle with the Spanish name in green.",echo=FALSE,out.width='70%', fig.align='center'}
 knitr::include_graphics("img/nnb.png")
 ```
 ](http://www.nnb.unam.mx)
 
 [
-```{r, fig.alt="Logo of R-Ladies Mexico, showing the original R-Ladies logo inside a hexagon with the green, white and red colors of the Mexican flag.",echo=FALSE,out.width='65%', fig.align='center'}
+```{r, fig.alt="Logo of R-Ladies Mexico, showing the original R-Ladies logo inside a hexagon with the green, white and red colors of the Mexican flag.",echo=FALSE,out.width='45%', fig.align='center'}
 knitr::include_graphics("img/rladiesmx.png")
 ```
 ](https://rladiesmx.netlify.app)
-
-
 ]
+
 ---
 class: chapter-slide
 
@@ -346,14 +359,19 @@ class: chapter-slide
 ---
 # Your support is invaluable
 
-.pull-left[<br><br><br><br><br>
+.pull-left[<br>
 Thanks to our sponsors we are able to:
 
 - Provide scholarships.
+
 - Invite international instructors.
+
 - Support local instructors.
+
 - Support TA's.
+
 - Improve technical facilities.
+
 - Maintain an administrative team.
 ]
 
@@ -362,7 +380,7 @@ Thanks to our sponsors we are able to:
 knitr::include_graphics("img/sponsors.png")
 ```
 
-```{r, fig.alt="Logo of R-Ladies Mexico, showing the original R-Ladies logo inside a hexagon with the green, white and red colors of the Mexican flag.",echo=FALSE,out.width='100%', fig.align='center'}
+```{r, fig.alt="Logo of R-Ladies Mexico, showing the original R-Ladies logo inside a hexagon with the green, white and red colors of the Mexican flag.",echo=FALSE,out.width='80%', fig.align='center'}
 knitr::include_graphics("img/sponsors2.png")
 ```
 ]
@@ -375,29 +393,28 @@ class: chapter-slide
 ---
 # Let's grow up your community
 
-Go to our collaborative document and write some ideas about how this principles apply to your community.
+<br>
+Go to our collaborative document and discuss some ideas on how to apply these principles in your community.
 
-Viewer mode:
+
+* Viewer mode:
 <https://hackmd.io/@josschavezf/incubator_useR2021/>
 
-Edit mode: 
+* Edit mode: 
 <https://hackmd.io/@josschavezf/incubator_useR2021/edit>
 
-```{r, fig.alt="The useR maRmot drawing on a tablet.", echo=FALSE,out.width='40%', fig.align='right'}
+```{r, fig.alt="The useR maRmot drawing on a tablet.", echo=FALSE,out.width='30%', fig.align='right'}
 knitr::include_graphics("img/marmot_painting.png")
 ```
 
 ---
-class: middle, center
-
-```{r, fig.alt="The CDSB logo with the Spanish full name.", echo=FALSE,out.width='100%'}
-knitr::include_graphics("img/logo.png")
-```
-
-<br>
+class: chapter-slide
 
 # Thanks for your attention!
 
-```{r, fig.alt="The useR maRmot waving.",echo=FALSE,out.width='40%', fig.align='right'}
+<br><br>
+
+```{r, fig.alt="The useR maRmot waving.",echo=FALSE,out.width='45%', fig.align='right'}
 knitr::include_graphics("img/marmot_user.png")
 ```
+
