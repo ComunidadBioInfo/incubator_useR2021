@@ -5,7 +5,7 @@ date: "5th July 2021 <br><br>"
 output:
   xaringan::moon_reader:
     css: ["css/useR.css", "css/useR-fonts.css"]
-    self_contained: true
+    self-contained: true
     nature:
       ratio: '16:9'
 ---
@@ -62,7 +62,7 @@ knitr::include_graphics("img/sandrine.jpeg")
 [Sandrine Dudoit](https://www.stat.berkeley.edu/users/sandrine/)  
 One of the Bioconductor project founders
 
-```{r, fig.alt="The logo of the Bachelor program of Genomic Sciences UNAM ",echo=FALSE,out.width='30%', fig.align='center'}
+```{r, fig.alt="The logo of the Bachelor program of Genomic Sciences UNAM ",echo=FALSE,out.width='25%', fig.align='center'}
 knitr::include_graphics("img/lcg.png")
 ```
 ]
@@ -84,7 +84,7 @@ But this question and the lack of knowledge about this programming language, sow
 .pull-left[
 .center[
 **January 2008**
-```{r, fig.alt="A map with an arrow from USA to Mexico showing the visit of James Bullard to our University.",echo=FALSE,out.width='70%', fig.align='center'}
+```{r, fig.alt="A map with an arrow from USA to Mexico showing the visit of James Bullard to our University.",echo=FALSE,out.width='68%', fig.align='center'}
 knitr::include_graphics("img/map1.png")
 ```
 
@@ -98,7 +98,7 @@ James Bullard
 .pull-right[
 .center[
 **Summer 2008**
-```{r, fig.alt="A map with an arrow from Mexico to USA showing the attendance of two CDSB members to their first R/Bioconductor conference.",echo=FALSE,out.width='70%', fig.align='center'}
+```{r, fig.alt="A map with an arrow from Mexico to USA showing the attendance of two CDSB members to their first R/Bioconductor conference.",echo=FALSE,out.width='68%', fig.align='center'}
 knitr::include_graphics("img/map2.png")
 ```
 
@@ -193,24 +193,24 @@ knitr::include_graphics("img/slack_logo.png")
 ```
 Join us [here](https://join.slack.com/t/comunidadbioinfo/shared_invite/zt-8lsvpm84-Fne1W0hadk6cpjgJS17Tnw)
 
-```{r, fig.alt="A CDSB Slack announcement about the open registration for useR! 2021.",echo=FALSE,out.width='100%'}
+```{r, fig.alt="A CDSB Slack announcement about the open registration for useR! 2021.",echo=FALSE,out.width='90%'}
 knitr::include_graphics("img/slack_announcement.png")
 ```
 ]
 ]
 
 .pull-right[
-- Members with diverse backgrounds.
+- Diverse backgrounds.
 
 - Announcement of events.
 
-- Advice and feedback for applications.
+- Advice and feedback.
 
 - Code/Programming advice.
 
 - Promote collaborations.
 
-- Highlight member's work/contributions.
+- Highlight member's work.
 
 
 ### 235 CDSB members!
@@ -233,7 +233,7 @@ By now, there are 235 CDSB members in our Slack channel, not only from Mexico bu
 
 .pull-left[
 <p align="justify">
-Three members obtained a developer scholarship and presented their contributions at Bioconductor Conference 2019 (New York City, USA).
+Three members presented their contributions at the Bioconductor Conference 2019 (New York City, USA).
 </p>
 ```{r, fig.alt="Ana Beatriz Villaseñor presenting her work at the Rockefeller University auditorium.",echo=FALSE,out.width='80%', fig.align='center'}
 knitr::include_graphics("img/bioconductor2019.png")
@@ -320,7 +320,7 @@ It was thanks to taking the 2019 CDSB workshop that I was able to have a new int
 ## Participation in conferences
 
 .center[
-### Diverse conference talks introducing the CDSB community.
+Diverse conference talks introducing the CDSB community.
 ]
 
 <br>
@@ -348,7 +348,7 @@ From the 2020 conference, we have presented the path of CDSB as a latin american
 ## Collaborative projects
 
 .center[
-### regutools is the first Bioconductor package fully written by CDSB members.
+regutools is the first Bioconductor package fully written by CDSB members.
 ]
 
 
@@ -371,7 +371,7 @@ Also, one of our main goals as a community is to promote collaboration. In this 
 ---
 class: chapter-slide
 
-# Principle 3: Invite enthusiastic members to join the board team
+# Principle 3: Invite enthusiastic members <br> to join the board team
 
 ???
 
@@ -382,7 +382,7 @@ At this point, we had great results, but the energy and enthusiasm of new member
 
 Joselyn joined the team after the annual CDSB workshop in 2019.
 
-She was one of the instructors for 2020, teaching materials from the course she took during RStudioConf 2020.
+She was one of the instructors in 2020, teaching materials from RStudioConf.
 
 ```{r, fig.alt="ConectaR 2020 title-slide with the CDSB logo, the ConectaR logo and the full name Community of Developers of Software in Bioinformatics.",echo=FALSE,out.width='80%', fig.align='center'}
 knitr::include_graphics("img/instructors2020.png")
@@ -404,7 +404,7 @@ knitr::include_graphics("img/board2020.png")
 ]
 
 .pull-right[
-Erick and Joselyn lead our monthly short courses in collaboration with RMB.
+Now they lead our monthly short courses in collaboration with RMB.
 
 ```{r, fig.alt="Poster of the first mini course organized and chaired by Erick and Joselyn with the title in Spanish: Introduction to R and RStudio.",echo=FALSE,out.width='70%', fig.align='center'}
 knitr::include_graphics("img/minicurso.png")
@@ -523,10 +523,10 @@ class: chapter-slide
 We hope our experience creating and growing up the CDSB community would help to expand your local communities. So it's your turn to apply these principles.
 
 ---
-# Let's grow up your community
+# Let's grow up your R community
 
 <br>
-Go to our collaborative document and discuss some ideas on how to apply these principles in your community.
+Go to our collaborative document and discuss some ideas on how to apply these principles in your R community.
 
 
 * Viewer mode:
@@ -535,7 +535,7 @@ Go to our collaborative document and discuss some ideas on how to apply these pr
 * Edit mode: 
 <https://hackmd.io/@josschavezf/incubator_useR2021/edit>
 
-```{r, fig.alt="The useR maRmot drawing on a tablet.", echo=FALSE,out.width='30%', fig.align='right'}
+```{r, fig.alt="The useR maRmot drawing on a tablet.", echo=FALSE,out.width='25%', fig.align='right'}
 knitr::include_graphics("img/marmot_painting.png")
 ```
 
@@ -552,7 +552,7 @@ class: chapter-slide
 
 <br><br>
 
-```{r, fig.alt="The useR maRmot waving.",echo=FALSE,out.width='45%', fig.align='right'}
+```{r, fig.alt="The useR maRmot waving.",echo=FALSE,out.width='40%', fig.align='right'}
 knitr::include_graphics("img/marmot_user.png")
 ```
 
