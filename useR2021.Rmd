@@ -4,7 +4,8 @@ author: "Joselyn Chávez, Erick Cuevas-Fernández, Leonardo Collado-Torres, Alej
 date: "5th July 2021 <br><br>"
 output:
   xaringan::moon_reader:
-    css: ["css/useR.css", "csss/useR-fonts.css"]
+    css: ["css/useR.css", "css/useR-fonts.css"]
+    self_contained: true
     nature:
       ratio: '16:9'
 ---
@@ -24,14 +25,23 @@ knitr::include_graphics("img/logo.png")
 
 ** Web page:** <https://comunidadbioinfo.github.io> 
 
+???
+
+Hi! We are Joselyn Chávez and Erick Cuevas-Fernández, we are presenting today Five principles to grow up your R Community.
+
+These principles are based on our experience as part of the CDSB, the acronym for the spanish name of the Community of Developers for Software in Bioinformatics. This community is based on México. You can find more information about our community on our web page or follow us on Twitter and Facebook.
 
 ---
 class: chapter-slide
 
 # Principle 1: The teaching cycle
 
+???
+
+So, let’s start with the first principle: The teaching cycle.
+
 ---
-# Invite external experts to train local community 
+# Invite external experts to train the local community 
 
 .pull-left[
 <p align="justify">
@@ -57,6 +67,16 @@ knitr::include_graphics("img/lcg.png")
 ```
 ]
 ]
+
+???
+
+The teaching cycle is composed of three steps, the first one is to invite external experts to train the local community.
+
+This principle is strongly related with the origin of CDSB, so let us tell you how this community borned.
+
+In 2008, professor Sandrine Dudoit (one of the founders of the Bioconductor project) was invited to present a talk about her research work as part of the Undergraduate Program of the Center of Genomic Sciences in Cuernavaca, Mexico. During her talk she asked the audience: Who knows R? Unfortunately, by that time just a couple of students said yes. 
+
+But this question and the lack of knowledge about this programming language, sowed the seed of curiosity in students.
 
 ---
 # Local members take the initiative to learn more
@@ -89,6 +109,10 @@ knitr::include_graphics("img/ale_leo.png")
 ]
 ]
 
+???
+
+One month later, professor James Bullard, the Associate professor of Sandrine, traveled to Mexico to teach an intensive R workshop for the students of the undergraduate program. During the workshop, he mentioned the Bioconductor Conference, since the topics of the conference are closely related with the study field of the program students. Two of them (Alejandra Medina-Rivera and Leonardo Collado-Torres) took the initiative to look for economical support from the University, and had the opportunity to attend this international conference in Seattle for the first time.
+
 ---
 # Local members teach others 
 
@@ -98,6 +122,10 @@ Leonardo became a co-instructor at his undergraduate program.
 ```{r, fig.alt="The announcement of Leonardo's first workshop saying:  R/Bioconductor workshop Oct-Nov 2008. This workshop was meant as a short course and was part of the Bioinformatics and Statistics subject directed to the fifth semester students of the Program of Genomic Sciences.",echo=FALSE,out.width='90%', fig.align='center'}
 knitr::include_graphics("img/workshop2008.png")
 ```
+
+???
+
+After the conference, Leonardo continued learning by himself about R, and by the autumn of that year he participated as a co-instructor of the first R/Bioconductor workshop completely teached by local members within his bachelor program.
 
 ---
 # Repeat the teaching cycle
@@ -117,23 +145,43 @@ knitr::include_graphics("img/arrow.png")
 <br><br>
 ]
 
+???
+
+So, let’s recap: The teaching cycle starts inviting external experts to train the local community, showing new possibilities and acting as inspiration. Then, enthusiastic trainees take the initiative to learn more, getting involved with the global community. Prepared trainees become instructors for the local community. Then, the cycle repeats, while local prepared members collaborate with external members and inspire new members to follow their path.
+
 --
 .right-column[
 ## Everything seemed to work but...
 ]
+
+???
+
+At this point, the cycle seemed to be completed, but we found a problem.
 
 ---
 # We faced some issues
 
 <br><br>
 - ** Trained members moved away following their careers (The cycle was difficult to maintain). ** <br><br><br>
-- ** Communities work with voluntaries (we needed more of them). ** <br><br><br>
+- ** Communities are composed of volunteers (we needed more of them). ** <br><br><br>
 - ** New members were not taking opportunities due to language barriers. ** <br><br><br>
+
+???
+
+At the beginning, our community was mainly composed of students who after a while had to leave the city or the country following their careers. So the cycle became difficult to maintain.
+
+Also, most of the communities are composed of volunteers. We had to find a way to attract more people interested in our project.
+
+As a new born community, interaction with more experienced communities is essential, but by that time most of them were external and international. Then, we found that some members willing to become active members of the community faced some barriers, such as language differences and low experience applying for scholarships or contribution submissions. 
 
 ---
 class: chapter-slide
 
 # Principle 2: Provide continuous support
+
+???
+
+Here is where the second principle came into the action.
 
 ---
 # We work as a virtual academic department
@@ -168,6 +216,16 @@ knitr::include_graphics("img/slack_announcement.png")
 ### 235 CDSB members!
 ]
 
+???
+
+In 2018, the CDSB founders Leonardo Collado-Torres, Alejandra Medina-Rivera and Alejandro Reyes, invited Martin Morgan and Benilton Carvalho to teach the first CDSB annual workshop, as part of the international summer workshops organized by the Center of Genomic Sciences, the National Node of Bioinformatics and the Mexican Network of Bioinformatics. 
+
+Even though the workshop was in person, they used Slack as the main communication platform to share materials, organize project teams and network. After the workshop, they decided to transform the platform into a continuous space for collaboration and support, becoming a sort of virtual academics department. 
+
+With the passing of the years, new diverse members have been added to the community Slack, with different professional backgrounds and different levels of expertise. Currently, we use this space to announce CDSB events, as well as local and international conferences. We not only promote participation of CDSB members as attendees but as contributors, by giving advice for fulfilling scholarship applications and talks or posters presentations. We also provide full year advice about programming issues or recommendations to improve code. Also, we promote collaborations among members, by connecting people interested in certains topics and specific projects. Finally but not less, we highlight member’s work by sharing packages developed by local members, and their participation in workshops and conferences.
+
+By now, there are 235 CDSB members in our Slack channel, not only from Mexico but from other latin american countries. You are very welcome to join us.
+
 ---
 # Some results
 
@@ -191,6 +249,10 @@ knitr::include_graphics("img/bioconductor2019_joss.png")
 ```
 CDSB support during the conference, practicing @josschavezf1 speech with @lcolladotor, @areyes, @doctor_calvo.
 ]
+
+???
+
+By working this way, we have achieved several results in only three years after CDSB creation. We have increased participation of CDSB member’s in conferences. After the first workshop, Leonardo and Alejandro contacted some of the traineed people and encouraged them to participate in 2019 R conferences. Three members obtained a developer scholarship to attend the Bioconductor conference presenting their developed packages. But the community support did not stop at the submission process. During the conference, they kindly accompanied me doing a rehearsal of my talk, making me feel more confident at my first english-spoken talk.
 
 ---
 ## Participation in conferences
@@ -217,6 +279,12 @@ knitr::include_graphics("img/useR2020.png")
 .pull-right[@AnaBetty2304]
 ]
 
+???
+
+In 2020, two members of the community had the opportunity to attend two of the principal R conferences: RStudio and useR! This time as a diversity scholarship attendees.
+
+Attending these events represented a huge step on the career of Ana and myself, not only because of the high quality tutorials and talks that we took, but also for the opportunity to network and meet some of the most experienced instructors of the R community.
+
 ---
 ## Participation in conferences
 
@@ -239,10 +307,21 @@ knitr::include_graphics("img/bioconductor2020.png")
 ```
 ]
 
+???
+
+With the current global situation, summer 2020 conferences became a virtual format. This new format represented in general a challenge, but for us represented an opportunity too. Last year 12 members of our community attended for the first time the Bioconductor conference, three of them presented their packages in development and the CDSB contributed with a Birds of a feather session introducing the community to the world. 
+
+Now Erick will share with you his experience in this conference: 
+
+In 2018 I heard of a workshop where Martin Morgan was performing in Mexico, at that time I had only a few months learning to use R, and I did not know who Martin Morgan was and had vague notions of Bioconductor. That year I started taking the TIB international bioinformatics workshops.
+It was thanks to taking the 2019 CDSB workshop that I was able to have a new international panorama of R development, know that there were events such as useR, BioC, rstudio :: global (), etc., It was highly motivated that a Mexican community was doing an effort to spread knowledge, inspire and expand the perspective of collaboration and development of free software to Mexicans. As a graduate student and with the science cuts that are becoming more frequent in Mexico, it is difficult to travel to another country to attend a workshop or a congress, due to the issue of VISA, passport, paying for a flight, accommodation, meals and registration. That is why the CDSB workshop of international quality accessible by its location and cost are valued to many Mexican students. And not only that, the same CDSB helps and promotes the application for scholarships for Mexican students in workshops and congresses for R developers in other countries.
+
 ---
 ## Participation in conferences
 
-.center[Diverse conference talks introducing the CDSB community.]
+.center[
+### Diverse conference talks introducing the CDSB community.
+]
 
 <br>
 
@@ -262,10 +341,15 @@ knitr::include_graphics("img/conectar.png")
 ```
 ]
 
+???
+From the 2020 conference, we have presented the path of CDSB as a latin american growing community, sharing our efforts, challenges and achievements in diverse conferences like JSM and ConectaR, with the aim to encourage new communities to not let down. We believe in the power of local communities, specially for those who are on their way to find a role in the amazing global R community.
+
 ---
 ## Collaborative projects
 
-.center[regutools is the first Bioconductor package fully written by CDSB members.]
+.center[
+### regutools is the first Bioconductor package fully written by CDSB members.
+]
 
 
 .pull-left[<br>
@@ -280,10 +364,18 @@ knitr::include_graphics("img/regutools_article.png")
 ```
 ]
 
+???
+
+Also, one of our main goals as a community is to promote collaboration. In this sense, we are proud to introduce regutools, the first Bioconductor package 100% developed by CDSB members which is available in Bioconductor since 2020, and which led to the publication of an academic paper in the journal Bioinformatics.
+
 ---
 class: chapter-slide
 
 # Principle 3: Invite enthusiastic members to join the board team
+
+???
+
+At this point, we had great results, but the energy and enthusiasm of new members provide an injection of continuity and motivation to continue with existing projects, and make new projects grow. That’s why the third principle: Invite enthusiastic members to join the board team is so important.
 
 ---
 # Students became board members and instructors
@@ -295,6 +387,10 @@ She was one of the instructors for 2020, teaching materials from the course she 
 ```{r, fig.alt="ConectaR 2020 title-slide with the CDSB logo, the ConectaR logo and the full name Community of Developers of Software in Bioinformatics.",echo=FALSE,out.width='80%', fig.align='center'}
 knitr::include_graphics("img/instructors2020.png")
 ```
+
+???
+
+Enthusiastic, active students who keep in touch with the community in the long term are excellent candidates to join the organizing team. Joselyn joined the team after the annual CDSB workshop in 2019. She became one of the instructors for 2020, teaching materials from the course she took during RStudio Conference. 
 
 ---
 # Students became board members and instructors
@@ -315,10 +411,22 @@ knitr::include_graphics("img/minicurso.png")
 ```
 ]
 
+???
+
+I (Erick) joined the team after the annual CDSB workshop in 2020 and  will be an instructor this year. 
+
+Remember the issues with the first principle? Now the teaching cycle it’s complete! Even when the original community founders keep involved from their new locations, during the last few months Joselyn and I have led the organization of the monthly short courses in collaboration with RMB. 
+
+Virtual collaboration and renewal of the team makes the community organization a sostenible process, which does not necessarily depend on the full availability of all members all the time.
+
 ---
 class: chapter-slide
 
 # Principle 4: Network with other communities
+
+???
+
+But we have not walked this path alone, the fourth principle: networking with other communities has been crucial.
 
 ---
 # We are not alone
@@ -351,10 +459,26 @@ knitr::include_graphics("img/rladiesmx.png")
 ](https://rladiesmx.netlify.app)
 ]
 
+???
+
+Networking with experienced communities generates a lot of learning for us. Interacting with other R communities has opened the doors for us to connect with other instructors, learn new topics, and above all offer the Mexican community through the CDSB access to R educational material in Spanish. At the end of the day our purpose is to generate and increase the number of users and developers of R.
+
+The CDSB has connected with amazing people from R-Ladies, Bioconductor, RStudio, ConectaR, RStudioConf, LatinR, useR, among others. 
+
+The main advantages of networking with other communities are:
+
+1. Updated knowledge. More than fifteen thousand R packages are in the CRAN repository available for download. It is impossible to master the functions and applications of all these packages, without counting the Bioconductor repository and the packages in development deposited on GitHub. That is why it is essential to connect with other R developers and users, learn from their experiences and knowledge. This allows us to have a fairly broad overview of the R community. This gives us many possibilities and options to bring that knowledge to the Latino community.
+2. Inclusion. Establishing communication with other communities allows us to leverage and support minorities. Find scholarships or support to help those in need.
+3. Accessibility. The language barrier, that is, most of the educational material and the largest R events are in English, this is a first barrier. By networking with other communities, we can organize R events in Spanish, translate educational material, and generate visual material to teach Spanish speakers.
+
 ---
 class: chapter-slide
 
 # Principle 5: Look for sponsors
+
+???
+
+We wanted to go to the next level and make CDSB events a place for new opportunities, which is where the last principle came into the map. We started looking for sponsors.
 
 ---
 # Your support is invaluable
@@ -385,10 +509,18 @@ knitr::include_graphics("img/sponsors2.png")
 ```
 ]
 
+???
+
+We are very thankful to the R Consortium, Bioconductor, Code for Science and Society and the Gordon and Betty Moore foundation who have believed in our project and have supported us as sponsors. Thanks to their support we are able now to provide scholarships for our annual workshops, as well as for our monthly short courses. We have invited international instructors to share their invaluable programming experience. We are able to support local members who have become instructors, as well as support teaching assistants during the workshops to give better attendees attention and experience. During the current global situation we have been able to implement new technical facilities and continue our summer courses now in virtual format. Also, thanks to this support we have access to an administrative team who help us to manage bureaucratic protocols for the events like registration and paperwork. 
+
 ---
 class: chapter-slide
 
 # It's your turn!
+
+???
+
+We hope our experience creating and growing up the CDSB community would help to expand your local communities. So it's your turn to apply these principles.
 
 ---
 # Let's grow up your community
@@ -407,6 +539,12 @@ Go to our collaborative document and discuss some ideas on how to apply these pr
 knitr::include_graphics("img/marmot_painting.png")
 ```
 
+???
+
+We have prepared a collaborative document in the hackmd.io platform to make an ideas storm. 
+
+Tell us about your community and how you think you could apply these principles in your local community. We are pleased to help in anything we can.
+
 ---
 class: chapter-slide
 
@@ -418,3 +556,6 @@ class: chapter-slide
 knitr::include_graphics("img/marmot_user.png")
 ```
 
+???
+
+Thank you so much for attending this incubator session and for your attention!
