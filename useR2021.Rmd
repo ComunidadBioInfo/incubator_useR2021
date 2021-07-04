@@ -530,10 +530,10 @@ Go to our collaborative document and discuss some ideas on how to apply these pr
 
 
 * Viewer mode:
-<https://hackmd.io/@josschavezf/incubator_useR2021/>
+https://hackmd.io/@josschavezf/incubator_useR2021/
 
 * Edit mode: 
-<https://hackmd.io/@josschavezf/incubator_useR2021/edit>
+https://hackmd.io/@josschavezf/incubator_useR2021/edit
 
 ```{r, fig.alt="The useR maRmot drawing on a tablet.", echo=FALSE,out.width='25%', fig.align='right'}
 knitr::include_graphics("img/marmot_painting.png")
